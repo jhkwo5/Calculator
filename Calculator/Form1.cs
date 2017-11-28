@@ -80,5 +80,6 @@ namespace Calculator
             NumScreen.Text = Result.ToString();
             isNewNum = true;
         }
+
     }
 }
