@@ -12,6 +12,24 @@ namespace Calculator
 {
     public partial class Calculator : Form
     {
+        //test
+        public int Result = 0;
+        public bool isNewNum = true;
+
+
+
+        public int Result = 0;
+        public bool isNewNum = true;
+        public int Result = 0;
+        public bool isNewNum = true;
+        public int Result = 0;
+        public bool isNewNum = true;
+        public int Result = 0;
+        public bool isNewNum = true;
+        public int Result = 0;
+        public bool isNewNum = true;
+        public int Result = 0;
+        public bool isNewNum = true;
         public int Result = 0;
         public bool isNewNum = true;
 
@@ -36,7 +54,7 @@ namespace Calculator
         {
             SetNum("2");
         }
-
+        
         public void SetNum(string num)
         {
             if (isNewNum)
