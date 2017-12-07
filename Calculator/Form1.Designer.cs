@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.NumButton1 = new System.Windows.Forms.Button();
-            this.NumButton2 = new System.Windows.Forms.Button();
             this.NumScreen = new System.Windows.Forms.Label();
             this.NumPlus = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -56,13 +55,6 @@
             this.NumButton1.Text = "1";
             this.NumButton1.UseVisualStyleBackColor = true;
             this.NumButton1.Click += new System.EventHandler(this.NumButton1_Click);
-            // 
-            // NumButton2
-            // 
-            this.NumButton2.Location = new System.Drawing.Point(0, 0);
-            this.NumButton2.Name = "NumButton2";
-            this.NumButton2.Size = new System.Drawing.Size(75, 23);
-            this.NumButton2.TabIndex = 12;
             // 
             // NumScreen
             // 
@@ -222,7 +214,7 @@
             // 
             // Calculator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(779, 838);
             this.Controls.Add(this.button11);
@@ -239,7 +231,6 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.NumPlus);
             this.Controls.Add(this.NumScreen);
-            this.Controls.Add(this.NumButton2);
             this.Controls.Add(this.NumButton1);
             this.Font = new System.Drawing.Font("Gulim", 12F);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -253,7 +244,6 @@
         #endregion
 
         private System.Windows.Forms.Button NumButton1;
-        private System.Windows.Forms.Button NumButton2;
         private System.Windows.Forms.Label NumScreen;
         private System.Windows.Forms.Button NumPlus;
         private System.Windows.Forms.Button button1;
